@@ -37,6 +37,7 @@ namespace StockManagement
             this.loginUsernameLabel = new System.Windows.Forms.Label();
             this.loginPasswordLabel = new System.Windows.Forms.Label();
             this.loginTitleLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.loginPictureBox)).BeginInit();
             this.logInPanel.SuspendLayout();
             this.SuspendLayout();
@@ -125,12 +126,22 @@ namespace StockManagement
             this.loginTitleLabel.TabIndex = 6;
             this.loginTitleLabel.Text = "Login Form";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(622, 30);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(764, 344);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.loginTitleLabel);
             this.Controls.Add(this.logInPanel);
             this.Controls.Add(this.loginPictureBox);
@@ -154,6 +165,7 @@ namespace StockManagement
         private System.Windows.Forms.Label loginUsernameLabel;
         private System.Windows.Forms.Label loginPasswordLabel;
         private System.Windows.Forms.Label loginTitleLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 
